@@ -1,0 +1,98 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++13E217A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "31C2A07283BF685D083A744766B308E82ACE598B+++13C2C04" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++1CA6D9A" : {
+
+<<<<<<< .mine
+<<<<<<< .mine
+    },
+    "31C2A07283BF685D083A744766B308E82ACE598B+++23CE4CE" : {
+
+=======
+>>>>>>> .r346
+=======
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++13E217A" : {
+
+>>>>>>> .r357
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+<<<<<<< .mine
+<<<<<<< .mine
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++9048A58" : 0,
+    "31C2A07283BF685D083A744766B308E82ACE598B+++7CE42CE" : 0,
+    "31C2A07283BF685D083A744766B308E82ACE598B+++23CE4CE" : 0
+=======
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926" : 0,
+    "31C2A07283BF685D083A744766B308E82ACE598B" : 0
+=======
+    "31C2A07283BF685D083A744766B308E82ACE598B+++13C2C04" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++1CA6D9A" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++13E217A" : 0
+>>>>>>> .r357
+>>>>>>> .r346
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1D5AE477-2015-4800-BF29-6094B987FB93",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+<<<<<<< .mine
+<<<<<<< .mine
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++9048A58" : "Hwawo0416\/HuaWo\/",
+    "31C2A07283BF685D083A744766B308E82ACE598B+++7CE42CE" : "Hwawo0416\/",
+    "31C2A07283BF685D083A744766B308E82ACE598B+++23CE4CE" : "Hwawo0416\/"
+=======
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926" : "Hwawo0416\/HuaWo\/",
+    "31C2A07283BF685D083A744766B308E82ACE598B" : "Hwawo0416\/"
+=======
+    "31C2A07283BF685D083A744766B308E82ACE598B+++13C2C04" : "Hwawo0416\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++1CA6D9A" : "Hwawo0416\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++13E217A" : "Hwawo0416\/HuaWo\/"
+>>>>>>> .r357
+>>>>>>> .r346
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HuaWo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HuaWo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+<<<<<<< .mine
+<<<<<<< .mine
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kklwoe\/Hwawo1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31C2A07283BF685D083A744766B308E82ACE598B+++23CE4CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31C2A07283BF685D083A744766B308E82ACE598B+++7CE42CE"
+    },
+    {
+=======
+>>>>>>> .r346
+<<<<<<< .mine
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kklwoe\/Hwawo1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31C2A07283BF685D083A744766B308E82ACE598B"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31C2A07283BF685D083A744766B308E82ACE598B+++13C2C04"
+>>>>>>> .r357
+    },
+    {
+>>>>>>> .r346
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++13E217A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kklwoe\/Hwawo1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++1CA6D9A"
+    }
+  ]
+}

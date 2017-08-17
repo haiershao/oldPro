@@ -1,0 +1,6 @@
+framework module LBClearCacheTool {
+  umbrella header "LBClearCacheTool.h"
+
+  export *
+  module * { export * }
+}

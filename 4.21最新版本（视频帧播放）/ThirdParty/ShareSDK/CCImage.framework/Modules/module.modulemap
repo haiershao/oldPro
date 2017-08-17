@@ -1,0 +1,6 @@
+framework module CCImage {
+  umbrella header "CCImage.h"
+
+  export *
+  module * { export * }
+}

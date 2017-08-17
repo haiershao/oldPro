@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iMx-Am-MDb" customClass="AlbumItem">
+            <rect key="frame" x="0.0" y="0.0" width="148" height="98"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiT-6w-BIn">
+                    <rect key="frame" x="0.0" y="0.0" width="148" height="97"/>
+                    <connections>
+                        <action selector="showPictureBtnPressed:" destination="iMx-Am-MDb" eventType="touchUpInside" id="VSF-kt-Q1f"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7iN-EC-qkl">
+                    <rect key="frame" x="0.0" y="0.0" width="148" height="98"/>
+                    <gestureRecognizers/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBB-VS-hDP">
+                    <rect key="frame" x="0.0" y="0.0" width="148" height="19"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="8LA-QN-SJU"/>
+                        <constraint firstAttribute="width" constant="148" id="KOw-Kq-YIf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23:58:59" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkw-Qa-Gp4">
+                    <rect key="frame" x="0.0" y="0.0" width="148" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="148" id="Pu2-cp-wlR"/>
+                        <constraint firstAttribute="height" constant="18" id="nWg-Ly-Vy0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" tag="1011" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_select" translatesAutoresizingMaskIntoConstraints="NO" id="CP4-2b-bCj">
+                    <rect key="frame" x="120" y="69" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="A3m-mf-GjJ"/>
+                        <constraint firstAttribute="height" constant="25" id="UNH-7C-Gqe"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="停车" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyB-dH-hrc">
+                    <rect key="frame" x="2" y="0.0" width="32" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="8eK-MO-XuZ"/>
+                        <constraint firstAttribute="width" constant="32" id="gdW-vO-0Ez"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pL-hw-9D3">
+                    <rect key="frame" x="0.0" y="19" width="148" height="79"/>
+                    <gestureRecognizers/>
+                    <state key="normal" image="movie_play_button"/>
+                    <connections>
+                        <action selector="playBtnPressed:" destination="iMx-Am-MDb" eventType="touchUpInside" id="8Li-UD-fYE"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album_lock_normal" translatesAutoresizingMaskIntoConstraints="NO" id="4dp-W1-Fs7">
+                    <rect key="frame" x="126" y="0.0" width="18" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="AtG-Ii-oXQ"/>
+                        <constraint firstAttribute="height" constant="18" id="HZD-B8-P0k"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2pL-hw-9D3" secondAttribute="bottom" id="COg-8v-4yz"/>
+                <constraint firstItem="gBB-VS-hDP" firstAttribute="top" secondItem="iMx-Am-MDb" secondAttribute="top" id="GFd-or-kf7"/>
+                <constraint firstItem="gBB-VS-hDP" firstAttribute="leading" secondItem="iMx-Am-MDb" secondAttribute="leading" id="KHQ-vu-Lkq"/>
+                <constraint firstAttribute="trailing" secondItem="CP4-2b-bCj" secondAttribute="trailing" constant="3" id="Kda-1e-3uq"/>
+                <constraint firstItem="2pL-hw-9D3" firstAttribute="leading" secondItem="iMx-Am-MDb" secondAttribute="leading" id="Kvn-rm-PyR"/>
+                <constraint firstItem="2pL-hw-9D3" firstAttribute="top" secondItem="gBB-VS-hDP" secondAttribute="bottom" id="N11-qA-LSc"/>
+                <constraint firstItem="4dp-W1-Fs7" firstAttribute="top" secondItem="iMx-Am-MDb" secondAttribute="top" id="RQS-Q6-LVO"/>
+                <constraint firstItem="gkw-Qa-Gp4" firstAttribute="top" secondItem="iMx-Am-MDb" secondAttribute="top" id="Tug-8q-cii"/>
+                <constraint firstItem="nyB-dH-hrc" firstAttribute="top" secondItem="iMx-Am-MDb" secondAttribute="top" id="Xxb-CU-tvj"/>
+                <constraint firstAttribute="trailing" secondItem="gBB-VS-hDP" secondAttribute="trailing" id="a7G-G6-4YI"/>
+                <constraint firstAttribute="bottom" secondItem="CP4-2b-bCj" secondAttribute="bottom" constant="4" id="emA-VC-GTA"/>
+                <constraint firstItem="gkw-Qa-Gp4" firstAttribute="leading" secondItem="iMx-Am-MDb" secondAttribute="leading" id="gVI-DR-se2"/>
+                <constraint firstItem="nyB-dH-hrc" firstAttribute="leading" secondItem="iMx-Am-MDb" secondAttribute="leading" constant="2" id="mVJ-0H-Dwt"/>
+                <constraint firstAttribute="trailing" secondItem="2pL-hw-9D3" secondAttribute="trailing" id="o3V-j1-kiH"/>
+                <constraint firstAttribute="trailing" secondItem="4dp-W1-Fs7" secondAttribute="trailing" constant="4" id="rip-hd-voU"/>
+                <constraint firstAttribute="trailing" secondItem="gkw-Qa-Gp4" secondAttribute="trailing" id="yiU-Xq-LoZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="gkw-Qa-Gp4" id="jXY-Jm-afC"/>
+                <outlet property="fileType" destination="4dp-W1-Fs7" id="F2u-sl-efJ"/>
+                <outlet property="imageView" destination="7iN-EC-qkl" id="gav-rL-ws7"/>
+                <outlet property="itemType" destination="nyB-dH-hrc" id="n9d-gi-Gwa"/>
+                <outlet property="playBtn" destination="2pL-hw-9D3" id="TzL-sj-Cy4"/>
+                <outlet property="selectImageView" destination="CP4-2b-bCj" id="zmR-S7-5Pv"/>
+            </connections>
+            <point key="canvasLocation" x="477" y="189"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="album_lock_normal" width="30" height="30"/>
+        <image name="list_select" width="22" height="22"/>
+        <image name="movie_play_button" width="46" height="46"/>
+    </resources>
+</document>

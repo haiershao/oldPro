@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HWImmediatelyShareController">
+            <connections>
+                <outlet property="shareBtn" destination="ccD-UV-UGd" id="qjl-Ma-8Lp"/>
+                <outlet property="videoView" destination="VWU-As-nmk" id="PuQ-Xh-0Sy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-As-nmk">
+                    <rect key="frame" x="0.0" y="64" width="600" height="180"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="QKu-Ta-lAb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2o-bn-agc">
+                    <rect key="frame" x="0.0" y="294" width="600" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccD-UV-UGd">
+                            <rect key="frame" x="10" y="0.0" width="580" height="50"/>
+                            <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="uOZ-tM-mry"/>
+                            </constraints>
+                            <state key="normal" title="立刻分享">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="shareBtnClick:" destination="-1" eventType="touchUpInside" id="FHv-lm-aM7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ccD-UV-UGd" secondAttribute="trailing" constant="10" id="0Ns-oP-4lN"/>
+                        <constraint firstItem="ccD-UV-UGd" firstAttribute="leading" secondItem="c2o-bn-agc" secondAttribute="leading" constant="10" id="Jb0-ZJ-eik"/>
+                        <constraint firstItem="ccD-UV-UGd" firstAttribute="top" secondItem="c2o-bn-agc" secondAttribute="top" id="Pbj-gI-jir"/>
+                        <constraint firstAttribute="height" constant="50" id="ahw-oH-FaS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="c2o-bn-agc" firstAttribute="top" secondItem="VWU-As-nmk" secondAttribute="bottom" constant="50" id="2Yl-xN-jRk"/>
+                <constraint firstItem="c2o-bn-agc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="H7P-Hp-C3n"/>
+                <constraint firstAttribute="trailing" secondItem="VWU-As-nmk" secondAttribute="trailing" id="YGn-vQ-Uxv"/>
+                <constraint firstItem="VWU-As-nmk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="u6K-2D-T7s"/>
+                <constraint firstItem="VWU-As-nmk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uTI-x1-o5N"/>
+                <constraint firstAttribute="trailing" secondItem="c2o-bn-agc" secondAttribute="trailing" id="xcy-hd-VgN"/>
+            </constraints>
+            <point key="canvasLocation" x="305" y="309"/>
+        </view>
+    </objects>
+</document>

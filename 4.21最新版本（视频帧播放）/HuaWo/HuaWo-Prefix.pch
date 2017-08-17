@@ -1,0 +1,48 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Constants.h"
+    #import "CommonUtility.h"
+    #import <WMPlayer/Masonry.h>
+    #import "UIImageView+Webcache.h"
+    #import "HWConst.h"
+    #import "RDVTabBarController.h"
+    #import "UIView+Extension.h"
+    #import "UIBarButtonItem+HWExtension.h"
+    #import "HWGetUserInfo.h"
+    #import <NSDateExtension/NSDate+XMGExtension.h>
+#import<SYCategory/SYCategory.h>
+#import "UIDevice+IdentifierAddition.h"
+//#import "FMGVideoPlayView.h"
+#import <videoPlayer/FMGVideoPlayView.h>
+#import <videoPlayer/FMGVideoPlayView.h>
+//#import "Video.h"
+//#import "FullViewController.h"
+#import <videoPlayer/FullViewController.h>
+#import "HWVideoViewController.h"
+#import <AFNetworking/AFNetworking.h>
+//#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "APIRequest+Network.h"
+#import "APIRequestOperationManager.h"
+//#import <GetVideoDataTools/GetVideoDataTools.h>
+//#import <GetVideoDataTools/VideoSid.h>
+//#import <GetVideoDataTools/Video.h>
+#endif
+
+#if MY_DEBUG_ENV
+[[PLeakSniffer sharedInstance] installLeakSniffer];
+#endif

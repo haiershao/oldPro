@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios, '8.0'
+inhibit_all_warnings!
+target ‘HuaWo’ do
+
+
+pod 'AWSS3'
+pod 'MJRefresh'
+pod 'PLeakSniffer'
+pod 'AFNetworking'
+
+end

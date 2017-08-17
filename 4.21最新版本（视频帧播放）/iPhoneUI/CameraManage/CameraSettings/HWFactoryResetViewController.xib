@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HWFactoryResetViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4D-DL-Jpl">
+                    <rect key="frame" x="10" y="470" width="580" height="130"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这将删除记录仪的设置，并恢复到默认的出厂设置但不会影响到存储卡的视频文件" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZu-dA-ZMF">
+                            <rect key="frame" x="5" y="0.0" width="570" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="yck-iE-1of"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR0-5j-r9J">
+                            <rect key="frame" x="20" y="45" width="540" height="45"/>
+                            <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="cYM-TM-eVU"/>
+                            </constraints>
+                            <state key="normal" title="恢复出厂设置"/>
+                            <connections>
+                                <action selector="factoryRestBtn:" destination="-1" eventType="touchUpInside" id="NTd-ja-hbA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mse-0H-KET">
+                            <rect key="frame" x="20" y="90" width="540" height="40"/>
+                            <state key="normal" title="退出"/>
+                            <connections>
+                                <action selector="quitBtn:" destination="-1" eventType="touchUpInside" id="P3A-om-jGs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="AZu-dA-ZMF" firstAttribute="leading" secondItem="K4D-DL-Jpl" secondAttribute="leading" constant="5" id="2Lg-LG-vR5"/>
+                        <constraint firstItem="RR0-5j-r9J" firstAttribute="top" secondItem="AZu-dA-ZMF" secondAttribute="bottom" id="LMM-60-6Lw"/>
+                        <constraint firstAttribute="height" constant="130" id="OmH-CQ-j6U"/>
+                        <constraint firstAttribute="trailing" secondItem="AZu-dA-ZMF" secondAttribute="trailing" constant="5" id="Shm-f1-zk6"/>
+                        <constraint firstAttribute="trailing" secondItem="RR0-5j-r9J" secondAttribute="trailing" constant="20" id="UFa-Eh-Bjq"/>
+                        <constraint firstItem="mse-0H-KET" firstAttribute="top" secondItem="RR0-5j-r9J" secondAttribute="bottom" id="bG9-cQ-yBf"/>
+                        <constraint firstItem="RR0-5j-r9J" firstAttribute="leading" secondItem="K4D-DL-Jpl" secondAttribute="leading" constant="20" id="fRY-4K-PtJ"/>
+                        <constraint firstAttribute="trailing" secondItem="mse-0H-KET" secondAttribute="trailing" constant="20" id="pzS-bW-zUa"/>
+                        <constraint firstItem="AZu-dA-ZMF" firstAttribute="top" secondItem="K4D-DL-Jpl" secondAttribute="top" id="tD4-3z-GhV"/>
+                        <constraint firstAttribute="bottom" secondItem="mse-0H-KET" secondAttribute="bottom" id="x7r-tv-aIv"/>
+                        <constraint firstItem="mse-0H-KET" firstAttribute="leading" secondItem="K4D-DL-Jpl" secondAttribute="leading" constant="20" id="y5C-UW-jza"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.12158312360178947" green="0.1201674356823265" blue="0.1391743568232662" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="K4D-DL-Jpl" secondAttribute="trailing" constant="10" id="2AT-SG-80E"/>
+                <constraint firstItem="K4D-DL-Jpl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="RfJ-S7-5JO"/>
+                <constraint firstAttribute="bottom" secondItem="K4D-DL-Jpl" secondAttribute="bottom" id="cf9-mR-Ajb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

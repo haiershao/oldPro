@@ -1,0 +1,6 @@
+framework module CCString {
+  umbrella header "CCString.h"
+
+  export *
+  module * { export * }
+}

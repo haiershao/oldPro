@@ -1,0 +1,6 @@
+framework module Rvs_Viewer {
+  umbrella header "Rvs_Viewer.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,102 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0D9D287",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "65a46071-9452-4329-b777-0d20db222f5c++3006+++4F619A8" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++2F08941" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++8197+++EFD199E" : {
+
+    },
+    "008f5ff1-9f4c-4dc2-8511-ac89d47d5785++3006+++DFDB795" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0F40960" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++9126+++B2955DA" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0D9D287" : {
+
+    },
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++558EFC0" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65a46071-9452-4329-b777-0d20db222f5c++3006+++4F619A8" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++2F08941" : 0,
+    "31C2A07283BF685D083A744766B308E82ACE598B+++4948D6E" : 0,
+    "008f5ff1-9f4c-4dc2-8511-ac89d47d5785++3006+++DFDB795" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++8197+++EFD199E" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0F40960" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++9126+++B2955DA" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0D9D287" : 0,
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++558EFC0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "07DC800A-2E36-41A6-9F07-30AA4104118F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65a46071-9452-4329-b777-0d20db222f5c++3006+++4F619A8" : "..\/SDK",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++2F08941" : "Hwawo0416\/HuaWo\/",
+    "31C2A07283BF685D083A744766B308E82ACE598B+++4948D6E" : "Hwawo1\/",
+    "008f5ff1-9f4c-4dc2-8511-ac89d47d5785++3006+++DFDB795" : "iOSClient\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++8197+++EFD199E" : "Hwawo1%E5%89%AF%E6%9C%AC\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0F40960" : "Hwawo0416\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++9126+++B2955DA" : "Hwawo1%E5%89%AF%E6%9C%AC\/HuaWo\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0D9D287" : "Hwawo0416\/",
+    "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++558EFC0" : "Hwawo0416\/HuaWo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HuaWo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HuaWo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn+ssh:\/\/192.168.0.8\/home\/svn\/AtHomeCamiPad",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "008f5ff1-9f4c-4dc2-8511-ac89d47d5785++3006+++DFDB795"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kklwoe\/Hwawo1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31C2A07283BF685D083A744766B308E82ACE598B+++4948D6E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kklwoe\/Hwawo1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0D9D287"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++0F40960"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++2F08941"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++7926+++558EFC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++8197+++EFD199E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/203.110.178.84\/svn\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a938903-4cd4-fd4b-9033-0dc1db10fd55++9126+++B2955DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn+ssh:\/\/192.168.0.8\/home\/svn\/ichanoSDK",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65a46071-9452-4329-b777-0d20db222f5c++3006+++4F619A8"
+    }
+  ]
+}

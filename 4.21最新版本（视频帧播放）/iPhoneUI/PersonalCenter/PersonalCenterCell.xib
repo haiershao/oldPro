@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellHeader" rowHeight="50" id="fas-DG-h4F" userLabel="Personal Center Cell Header" customClass="PersonalCenterCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fas-DG-h4F" id="NlO-G6-s7y">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="find_new_head_bg" translatesAutoresizingMaskIntoConstraints="NO" id="f46-RZ-Z1Y">
+                        <rect key="frame" x="14" y="26" width="45" height="45"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="点击查看你的精彩空间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-uE-IfP">
+                        <rect key="frame" x="67" y="50" width="151" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="哒哒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2M-G4-qHQ">
+                        <rect key="frame" x="65" y="31" width="142" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYA-X3-7fa">
+                        <rect key="frame" x="71" y="21" width="85" height="29"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1EV-zs-Lak">
+                        <rect key="frame" x="14" y="26" width="45" height="45"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="iconBtnClick:" destination="fas-DG-h4F" eventType="touchUpInside" id="5qe-DK-wBq"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.1450980392" green="0.1450980392" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="accountIconImageView" destination="f46-RZ-Z1Y" id="HKe-q0-xk5"/>
+                <outlet property="accountLabel" destination="C2M-G4-qHQ" id="Ieu-e9-dbW"/>
+                <outlet property="clickTipslabel" destination="tAx-uE-IfP" id="BfS-g9-BAp"/>
+                <outlet property="loginStatusLabel" destination="EYA-X3-7fa" id="Wav-sG-g34"/>
+            </connections>
+            <point key="canvasLocation" x="299" y="458"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="44" id="KGk-i7-Jjw" customClass="PersonalCenterCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0xC-sO-x3r">
+                        <rect key="frame" x="29" y="8" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="xm2-A4-cds"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEO-Q4-sQF">
+                        <rect key="frame" x="62" y="0.0" width="199" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qEO-Q4-sQF" secondAttribute="bottom" id="2lS-Gn-vnX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0xC-sO-x3r" secondAttribute="bottom" constant="2" id="Ja7-VX-xwo"/>
+                    <constraint firstItem="qEO-Q4-sQF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MIi-hq-Q8d"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qEO-Q4-sQF" secondAttribute="trailing" constant="51" id="SCt-8c-P8S"/>
+                    <constraint firstItem="0xC-sO-x3r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aa9-VZ-9jI"/>
+                    <constraint firstItem="0xC-sO-x3r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="eem-si-zWm"/>
+                    <constraint firstItem="qEO-Q4-sQF" firstAttribute="leading" secondItem="0xC-sO-x3r" secondAttribute="trailing" constant="8" symbolic="YES" id="q0I-6T-Sle"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.1450980392" green="0.1450980392" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="image" destination="0xC-sO-x3r" id="h6a-3K-zC1"/>
+                <outlet property="label" destination="qEO-Q4-sQF" id="pVm-0L-2z7"/>
+            </connections>
+            <point key="canvasLocation" x="299" y="609"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="find_new_head_bg" width="42" height="42"/>
+    </resources>
+</document>

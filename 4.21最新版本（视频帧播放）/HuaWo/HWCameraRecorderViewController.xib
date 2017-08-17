@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HWCameraRecorderViewController">
+            <connections>
+                <outlet property="alertLabel" destination="ih5-q6-dJt" id="dNq-ZP-Jr2"/>
+                <outlet property="luzhiBtn" destination="Ket-HF-FOr" id="ByX-EF-G1l"/>
+                <outlet property="mkMapView" destination="mqP-oG-eVj" id="T1q-PD-87H"/>
+                <outlet property="qianmingLabel" destination="rvK-pd-U3d" id="dea-zw-cYj"/>
+                <outlet property="reportBtn" destination="cng-SU-SMM" id="D6m-oW-0bQ"/>
+                <outlet property="setView" destination="LeP-G1-Pl8" id="GTR-ez-vCS"/>
+                <outlet property="shequBtn" destination="5Xz-Dc-DE5" id="NdY-8z-sHO"/>
+                <outlet property="shuiyingImageView" destination="itx-16-R3G" id="cBZ-9U-6lr"/>
+                <outlet property="snapBtn" destination="dwh-aI-4IZ" id="qL4-Sr-bHP"/>
+                <outlet property="timeTipLabel" destination="s1h-q6-F1N" id="UWP-8i-Nb8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shuiyilogo" translatesAutoresizingMaskIntoConstraints="NO" id="itx-16-R3G">
+                    <rect key="frame" x="8" y="0.0" width="120" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="lvc-ef-U48"/>
+                        <constraint firstAttribute="width" constant="120" id="tFO-JZ-jUw"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xz-Dc-DE5">
+                    <rect key="frame" x="8" y="305" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="DjO-wM-gVp"/>
+                        <constraint firstAttribute="height" constant="50" id="p5s-Ra-9SA"/>
+                    </constraints>
+                    <state key="normal" image="shequ"/>
+                    <connections>
+                        <action selector="shequBtnClick:" destination="-1" eventType="touchUpInside" id="MEC-Ph-tkV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-HF-FOr">
+                    <rect key="frame" x="103" y="305" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="GJJ-bq-4a6"/>
+                        <constraint firstAttribute="height" constant="50" id="YKj-1u-WHP"/>
+                    </constraints>
+                    <state key="normal" image="luzhi"/>
+                    <state key="selected" image="recording"/>
+                    <connections>
+                        <action selector="recordingBtnClick:" destination="-1" eventType="touchUpInside" id="bPu-Oq-yYY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwh-aI-4IZ">
+                    <rect key="frame" x="567" y="275" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="V6s-eM-tO5"/>
+                        <constraint firstAttribute="height" constant="70" id="sEc-7t-E9t"/>
+                    </constraints>
+                    <state key="normal" image="snap1"/>
+                    <state key="selected" image="snap02"/>
+                    <connections>
+                        <action selector="snapBtnClick:" destination="-1" eventType="touchUpInside" id="2zW-tz-jTw"/>
+                    </connections>
+                </button>
+                <view hidden="YES" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LeP-G1-Pl8">
+                    <rect key="frame" x="402" y="17" width="165" height="130"/>
+                    <subviews>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rby-G7-MWR">
+                            <rect key="frame" x="60" y="43" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="KOb-eE-Ndo"/>
+                                <constraint firstAttribute="height" constant="45" id="O3V-Tb-GW2"/>
+                            </constraints>
+                            <state key="normal" image="shezhi1"/>
+                            <state key="highlighted" image="shezhi"/>
+                            <connections>
+                                <action selector="leftBatteryClick:" destination="-1" eventType="touchUpInside" id="DcH-44-LSc"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="省电模式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLi-ES-Rgp">
+                            <rect key="frame" x="47" y="89" width="70" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNk-a6-Slf">
+                            <rect key="frame" x="8" y="72" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="ZUf-c6-acR"/>
+                                <constraint firstAttribute="height" constant="50" id="zp7-6J-JQm"/>
+                            </constraints>
+                            <state key="normal" image="wenzijietu"/>
+                            <state key="highlighted" image="wenzijietu0"/>
+                            <connections>
+                                <action selector="cutBtnClick:" destination="-1" eventType="touchUpInside" id="JKR-KQ-WXH"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tr-2h-nEj">
+                            <rect key="frame" x="107" y="8" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="Dwc-ou-lZW"/>
+                                <constraint firstAttribute="height" constant="50" id="blv-fy-ruA"/>
+                            </constraints>
+                            <state key="normal" image="wenziCameraExchange"/>
+                            <state key="selected" image="wenziCameraExchange0"/>
+                            <connections>
+                                <action selector="exchangeCameraBtnClick:" destination="-1" eventType="touchUpInside" id="81G-hS-map"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba9-ph-bKp">
+                            <rect key="frame" x="107" y="72" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="9YH-eA-4Fm"/>
+                                <constraint firstAttribute="width" constant="50" id="hei-O6-TRP"/>
+                            </constraints>
+                            <state key="normal" image="wenzimaikefen0"/>
+                            <state key="selected" image="wenzimaikefen1"/>
+                            <connections>
+                                <action selector="maikeBtnClick:" destination="-1" eventType="touchUpInside" id="ePR-PI-g4a"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7Tr-2h-nEj" secondAttribute="trailing" constant="8" id="4h6-Gd-qvs"/>
+                        <constraint firstAttribute="width" constant="165" id="6VX-Uh-3LR"/>
+                        <constraint firstItem="7Tr-2h-nEj" firstAttribute="top" secondItem="LeP-G1-Pl8" secondAttribute="top" constant="8" id="E1k-AB-YSr"/>
+                        <constraint firstAttribute="bottom" secondItem="TNk-a6-Slf" secondAttribute="bottom" constant="8" id="Nk2-aI-Nsg"/>
+                        <constraint firstItem="Rby-G7-MWR" firstAttribute="centerY" secondItem="LeP-G1-Pl8" secondAttribute="centerY" id="R4g-Hg-RrJ"/>
+                        <constraint firstAttribute="height" constant="130" id="byO-4y-whY"/>
+                        <constraint firstItem="Rby-G7-MWR" firstAttribute="centerX" secondItem="LeP-G1-Pl8" secondAttribute="centerX" id="pUI-pN-UmE"/>
+                        <constraint firstAttribute="trailing" secondItem="ba9-ph-bKp" secondAttribute="trailing" constant="8" id="xLw-st-ZHL"/>
+                        <constraint firstAttribute="bottom" secondItem="ba9-ph-bKp" secondAttribute="bottom" constant="8" id="y2e-XF-PiJ"/>
+                        <constraint firstItem="TNk-a6-Slf" firstAttribute="leading" secondItem="LeP-G1-Pl8" secondAttribute="leading" constant="8" id="ywv-fK-MJD"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000-00-00 00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1h-q6-F1N">
+                    <rect key="frame" x="10" y="354" width="180" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="7Gb-be-Kbp"/>
+                        <constraint firstAttribute="height" constant="21" id="sFo-sX-8WX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvK-pd-U3d">
+                    <rect key="frame" x="457" y="354" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Cey-uS-yEi"/>
+                        <constraint firstAttribute="height" constant="21" id="t0x-Vb-EoV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-q6-dJt">
+                    <rect key="frame" x="209" y="327" width="250" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="6Zh-Uf-yT7"/>
+                        <constraint firstAttribute="height" constant="21" id="nqh-87-txB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <mapView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mqP-oG-eVj">
+                    <rect key="frame" x="533" y="165" width="114" height="102"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="102" id="avS-r6-cQA"/>
+                        <constraint firstAttribute="width" constant="114" id="g1e-8v-tXV"/>
+                    </constraints>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cng-SU-SMM">
+                    <rect key="frame" x="573" y="38" width="64" height="64"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="Hmx-7W-dmQ"/>
+                        <constraint firstAttribute="height" constant="64" id="cIf-nS-e9J"/>
+                    </constraints>
+                    <state key="normal" image="report2"/>
+                    <state key="selected" image="report1"/>
+                    <state key="highlighted" image="report2"/>
+                    <connections>
+                        <action selector="reportBtnClick:" destination="-1" eventType="touchUpInside" id="QzV-8c-dlh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="s1h-q6-F1N" secondAttribute="bottom" id="2tY-3z-Kf3"/>
+                <constraint firstItem="s1h-q6-F1N" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="3BQ-Cj-MjR"/>
+                <constraint firstAttribute="trailing" secondItem="cng-SU-SMM" secondAttribute="trailing" constant="30" id="8Mc-5M-CDw"/>
+                <constraint firstAttribute="bottom" secondItem="Ket-HF-FOr" secondAttribute="bottom" constant="20" id="9Vb-fj-2FG"/>
+                <constraint firstItem="cng-SU-SMM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="EEx-lW-UO8"/>
+                <constraint firstItem="mqP-oG-eVj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="165" id="IBX-Ag-ZZa"/>
+                <constraint firstAttribute="bottom" secondItem="rvK-pd-U3d" secondAttribute="bottom" id="K9p-zH-zLm"/>
+                <constraint firstAttribute="trailing" secondItem="mqP-oG-eVj" secondAttribute="trailing" constant="20" id="O6R-Od-s4Z"/>
+                <constraint firstItem="5Xz-Dc-DE5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="RZf-ZR-VPr"/>
+                <constraint firstItem="itx-16-R3G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Vqv-ob-NLc"/>
+                <constraint firstAttribute="bottom" secondItem="5Xz-Dc-DE5" secondAttribute="bottom" constant="20" id="W3V-mF-qnt"/>
+                <constraint firstAttribute="trailing" secondItem="dwh-aI-4IZ" secondAttribute="trailing" constant="30" id="ZT4-Xg-e02"/>
+                <constraint firstItem="Ket-HF-FOr" firstAttribute="leading" secondItem="5Xz-Dc-DE5" secondAttribute="trailing" constant="45" id="gHA-Dp-fBh"/>
+                <constraint firstAttribute="trailing" secondItem="LeP-G1-Pl8" secondAttribute="trailing" constant="100" id="ggC-ut-aik"/>
+                <constraint firstItem="ih5-q6-dJt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="h9v-yg-QqH"/>
+                <constraint firstAttribute="trailing" secondItem="rvK-pd-U3d" secondAttribute="trailing" constant="10" id="hFw-5V-Tm5"/>
+                <constraint firstAttribute="bottom" secondItem="dwh-aI-4IZ" secondAttribute="bottom" constant="30" id="lcf-4b-3Bi"/>
+                <constraint firstItem="LeP-G1-Pl8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="17" id="mMS-Pa-JVc"/>
+                <constraint firstItem="itx-16-R3G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xfj-pY-ORc"/>
+                <constraint firstItem="ih5-q6-dJt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="150" id="yOQ-JH-tfD"/>
+            </constraints>
+            <point key="canvasLocation" x="112.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="luzhi" width="160" height="160"/>
+        <image name="recording" width="160" height="160"/>
+        <image name="report1" width="83" height="83"/>
+        <image name="report2" width="83" height="83"/>
+        <image name="shequ" width="160" height="160"/>
+        <image name="shezhi" width="70" height="70"/>
+        <image name="shezhi1" width="70" height="70"/>
+        <image name="shuiyilogo" width="125" height="125"/>
+        <image name="snap02" width="128" height="128"/>
+        <image name="snap1" width="128" height="128"/>
+        <image name="wenziCameraExchange" width="64" height="64"/>
+        <image name="wenziCameraExchange0" width="64" height="64"/>
+        <image name="wenzijietu" width="64" height="64"/>
+        <image name="wenzijietu0" width="64" height="64"/>
+        <image name="wenzimaikefen0" width="64" height="64"/>
+        <image name="wenzimaikefen1" width="64" height="64"/>
+    </resources>
+</document>

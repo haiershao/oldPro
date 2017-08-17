@@ -1,0 +1,6 @@
+framework module LHUserAlbumUrlExchangeDocumentUrl {
+  umbrella header "LHUserAlbumUrlExchangeDocumentUrl.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TextView {
+  umbrella header "TextView.h"
+
+  export *
+  module * { export * }
+}
